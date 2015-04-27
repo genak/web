@@ -45,8 +45,7 @@
                     <h2 class="block_title">Теги HTML</h2>
                     <div class="aside_list">
                         <ul class="menu">
-                        {foreach from = $leftMenu.Tags
-                                    item = tag}
+                        {foreach from = $leftMenu.Tags item = tag}
                             <li class="leaf">
                                 <a href="{$tag.link}" title="{$tag.name}">{$tag.name}</a>
                             </li>
@@ -60,8 +59,7 @@
             
                     <div class="aside_list">
                          <ul class="menu">
-                        {foreach from = $leftMenu.CSS
-                                    item = tag}
+                        {foreach from = $leftMenu.CSS item = tag}
                             <li class="leaf">
                                 <a href="{$tag.link}" title="{$tag.name}">{$tag.name}</a>
                             </li>
