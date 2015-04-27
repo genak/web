@@ -196,12 +196,12 @@ body
 
 .footer a, .footer a:visited 
 { 
-	color: #666; 
+    color: #666; 
 }
 
 .footer a:hover 
 { 
-	color: #BD2026; 
+    color: #BD2026; 
 }
 
 .li 
@@ -222,7 +222,7 @@ body
 
 a 
 { 
-	color: #1D67A4; 
+    color: #1D67A4; 
 }
 
 a:visited 
@@ -232,7 +232,7 @@ a:visited
 
 a:hover 
 { 
-	color: #BD2026; 
+    color: #BD2026; 
 }
 
 a.ext 
@@ -243,7 +243,7 @@ a.ext
 
 a img 
 { 
-	border: none; 
+    border: none; 
 }
 
 .aside a 
@@ -257,12 +257,12 @@ a img
 
 .aside a:visited 
 { 
-	color: #ccc; 
+    color: #ccc; 
 }
 
 .aside a:hover 
 { 
-	color: #fff; 
+    color: #fff; 
 }
 
 .aside a.active 
@@ -299,7 +299,6 @@ li ul .active-trail a.active
 .layout 
 {
     overflow: hidden;
-    padding-bottom: 30px;
     background: url(../img/bg.png) repeat-y;
     background: -moz-linear-gradient(left, #4b4a45, #4b4a45 210px, #fff 211px, #fff);
     background: -webkit-linear-gradient(left, #4b4a45, #4b4a45 210px, #fff 211px, #fff);

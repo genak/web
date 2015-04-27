@@ -25,6 +25,7 @@
                 <input type="text" name="as_q" id="q" autocomplete="off" placeholder="Поиск по сайту">
                 <input type="image" src="img/find.png" alt="Найти" class="find">
             </form>
+           
         </div>
         
         <div class="layout">
@@ -32,10 +33,11 @@
             <div class="aside">
                 <div class="block" id="block-28">
                     <div class="block_content">
-                        <form action="http://htmlbook.ru/sites/search/" id="filter" name="filter">
-                            <input autocomplete="off" id="ac" name="q" placeholder="Тег HTML или св-во CSS" type="search">
-                            <input alt="Найти" class="find" src="img/find.png" type="image">
+                    
+                        <form action="http://htmlbook.ru/sites/search/" id="filter">
+                            <input type="search" name="q" id="ac"  placeholder="Тег HTML или св-во CSS"><input type="image" src="http://htmlbook.ru/themes/hb/img/find.png" alt="Найти" class="find">
                         </form>
+                        
                     </div>
                 </div>
             
