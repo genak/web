@@ -3,6 +3,7 @@
     define('TEMPLATE_DIR', ROOT_DIR . '/template/');
     define('TEMPLATE_C_DIR', ROOT_DIR . '/template_c/');
     define('SMARTY_DIR', 'lib/smarty/libs/');
+    define('UPLOAD_DIR', ROOT_DIR . '/upload/');
     
     define('DB_HOST', 'localhost');
     define('DB_USER', 'root');
